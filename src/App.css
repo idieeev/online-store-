@@ -1,0 +1,115 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.div1{
+    background-image: url("./assets/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+}
+.div2{
+    background-image: url("./assets/background2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 39vh;
+}
+.div3{
+    background-image: url("./assets/background3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 39vh;
+}
+.div4{
+    background-image: url("./assets/background4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:39vh;
+}
+.product:hover{
+    transition: 1s;
+    .cart{
+        display: flex;
+    }
+}
+.image{
+    z-index: 2; 
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  padding: 0;
+  width: 30%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.h1:active{
+    border-bottom: 2px solid gray;
+}
+.h1:focus{
+    border-bottom:1px solid gray;
+    background-color: red;
+}
